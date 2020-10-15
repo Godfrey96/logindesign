@@ -1,0 +1,60 @@
+
+<ion-content class="background">
+
+  <div class="content flex-container">
+    
+    <div class="box-1">
+      <ion-row>
+        <ion-col size="8">
+          <h1 style="padding-left: 20px; font-size: 35px; margin-bottom: 5px; color: rgb(65,98,141);">Create Account</h1>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item>
+            <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Name</ion-label>
+            <ion-input type="text" name="name"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="12">
+          <ion-item>
+            <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Email</ion-label>
+            <ion-input type="email" name="email"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="12">
+          <ion-item>
+            <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Password</ion-label>
+            <ion-input type="password" name="password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>  
+    </div>
+
+    <div class="box-2" style="padding-left: 20px; margin-top: 60px;">
+      <div>
+        <ion-label style="font-size: 20px; font-family: 'Roboto', sans-serif; color: rgb(4,0,0);">Sign up</ion-label>
+      </div>
+      <div>
+        <a routerLink="/welcome">
+          <ion-fab-button color="secondary" class="icon-right">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </ion-fab-button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box-3">
+      <ion-row>
+        <ion-col>
+          <div class="signup-right">
+            <span style="font-family: 'Roboto', sans-serif; padding-left: 1px; font-size: small; color: rgb(4,0,0);">
+              <a routerLink="/login">Sign in</a>
+            </span>
+          </div>
+        </ion-col>
+      </ion-row>
+    </div>
+
+  </div>
+</ion-content>
