@@ -3,39 +3,84 @@ ion-content.background{
   }
 
   .content{
-    position: fixed;
-    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-left: 15px;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-top: 150px;
   }
 
-  .flex-container{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: flex-start;
-      transform: translateY(-3%);
-      position: absolute;
-      //align-items: center;
+  .cont-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 20px;
   }
 
-  ion-item{
-    --background: #F8EEEC;
+  .cont-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .cont-4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .box-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .signin{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-top: 10px;
+  }
+
+  .icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 10px;
+  }
+
+  .box-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .signup-right{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-top: 10px;
+  }
+
+ion-item{
+  --background: #F8EEEC;
 }
 
-  ion-icon{
-      --background: #E96D37;
-  }
-
-.signin{
-    margin-top: 40px;
-}
-
-.icon-right{
-    position: relative;
-    bottom: 38px;
-    margin-left: 180px;
-    margin-top: 0px;
+ion-icon{
+    --background: #E96D37;
 }
 
   span{
@@ -44,19 +89,6 @@ ion-content.background{
       padding-bottom: 3px;
       padding-left: 0px;
       padding-right: 0px;
-  }
-
-  .line{
-    border-bottom: 1px solid rgb(166,158,156);
-    line-height: 10px;
-    margin-left: 150px;
-    padding-bottom: 4px;
-  }
-
-  .signup-right{
-    padding-left: 20px;
-    position: relative;
-    bottom: 50px;
   }
 
   a{

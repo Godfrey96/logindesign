@@ -3,40 +3,43 @@
 
   <div class="content">
 
-    <div class="box-1">
+    <!-- <div class="box-1">
       <ion-row>
-        <ion-col size="8">
-          <h1 style="padding-left: 10px; font-size: 35px; margin-top: 20px; color: rgb(234,109,53);">Welcome Back</h1>
-        </ion-col>
+        <ion-col size="8"> -->
+          <div class="cont-1">
+            <h1 style="font-size: 40px; color: rgb(234,109,53);">Welcome Back</h1>
+          </div>
+        <!-- </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="12">
-          <ion-item>
-            <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Email</ion-label>
-            <ion-input type="email" name="email"></ion-input>
-          </ion-item>
-        </ion-col>
-        <ion-col size="12">
-          <ion-item>
-            <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Password</ion-label>
-            <ion-input></ion-input>
-          </ion-item>
-        </ion-col>
-        <!-- <h6 class="line" style="text-align: right;">Forgot Password</h6> -->
-        <!-- <ion-col size="12">
-          <h6 class="line" style="text-align: right;">Forgot Password</h6>
-        </ion-col> -->
+        <ion-col size="12"> -->
+          <div class="cont-2">
+            <ion-item>
+              <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Email</ion-label>
+              <ion-input type="email" name="email"></ion-input>
+            </ion-item>
+          </div>
+        <!-- </ion-col>
+        <ion-col size="12"> -->
+          <div class="cont-3">
+            <ion-item>
+              <ion-label style="color: #85807D; font-family: 'Open Sans', sans-serif; font-weight: bolder; font-size: small;" position="floating">Password</ion-label>
+              <ion-input type="password" name="password"></ion-input>
+            </ion-item>
+          </div>
+        <!-- </ion-col>
       </ion-row>
+    </div> -->
+    <div class="forgot">
+      <span>Forgot Password</span>
     </div>
 
-   
-
     <div class="box-2">
-      <ion-label style="font-size: 20px; font-family: 'Roboto', sans-serif; color: rgb(4,0,0);">Sign in</ion-label>
-      <!-- <div class="signin">
+      <div class="signin">
         <ion-label style="font-size: 20px; font-family: 'Roboto', sans-serif; color: rgb(4,0,0);">Sign in</ion-label>
-      </div> -->
-      <div>
+      </div>
+
+      <div class="icon">
         <a routerLink="/welcome">
           <ion-fab-button class="icon-right">
             <ion-icon name="arrow-forward-outline"></ion-icon>
@@ -46,26 +49,17 @@
     </div>
 
     <div class="box-3">
-      <ion-row>
-        <ion-col>
+      <!-- <ion-row>
+        <ion-col> -->
           <div class="signup-right">
-            <span style="font-family: 'Roboto', sans-serif; padding-left: 1px; font-size: small; color: rgb(4,0,0);">
+            <span style="font-family: 'Roboto', sans-serif; font-size: small; color: rgb(4,0,0);">
               <a routerLink="/register">Sign up</a>
             </span>
           </div>
-        </ion-col>
-      </ion-row>
+        <!-- </ion-col>
+      </ion-row> -->
     </div>
 
-  </div>
- 
-
-
-
-  <div class="boxes">
-    <div class="forgot">
-      <h6>Forgot Password</h6>
-    </div>
   </div>
 
 </ion-content>
